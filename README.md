@@ -1,4 +1,4 @@
-# React JS Starter Project
+React JS Starter Project
 
 This is a simple React JS project to help you get started with React development.
 
