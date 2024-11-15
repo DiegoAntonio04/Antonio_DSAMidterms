@@ -22,6 +22,7 @@ Verify installation:
 ## Setup Instructions
 
 ### Option 1: Using Create React App (Recommended for Beginners)
+
 1.Create a new React app:
   bash
 
@@ -39,6 +40,7 @@ Note:Replace my-app with your desired project name.
   npm start
 
 ### Option 2: Manual Setup (For Advanced Users)
+
 1.Create a project directory:
 
   bash
@@ -154,6 +156,7 @@ html
   npx webpack serve --mode development
 
 ### Running the Project
+
 -Create React App:
 Use npm start to start the development server.
 
