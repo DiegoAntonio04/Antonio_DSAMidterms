@@ -14,9 +14,10 @@ Before setting up the project, ensure the following are installed on your machin
 
 Verify installation:
   bash
-  
+
   node -v
   npm -v
+ ______________________________________________________________________________________________________________________
 
 ## Setup Instructions
 
