@@ -1,7 +1,3 @@
-# React JS Starter Project<h1>
-
-This is a simple React JS project to help you get started with React development.
-
 ## What is React JS?
 React JS is an open-source JavaScript library for building user interfaces, especially single-page applications. It allows developers to create reusable UI components and manage state efficiently.
 
