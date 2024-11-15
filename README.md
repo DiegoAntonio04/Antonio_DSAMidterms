@@ -113,7 +113,7 @@ ________________________________________________________________________________
 
 - **src/index.js:**
 
-  >javascript
+  javascript
 
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -128,7 +128,7 @@ ________________________________________________________________________________
   import React from 'react';
 
   function App() {
-    return <h1>Hello, React!</h1>;
+    return h1>Hello, React!/h1>;
   }
 
   export default App;
@@ -152,7 +152,9 @@ html
   </body>
   </html>
 
+
 8. **Run the development server:**
+
 
   bash
 
