@@ -13,7 +13,8 @@ Before setting up the project, ensure the following are installed on your machin
   Download and install from [https://nodejs.org/](https://nodejs.org/).
 
 Verify installation:
-  ```bash
+  bash
+  
   node -v
   npm -v
 
