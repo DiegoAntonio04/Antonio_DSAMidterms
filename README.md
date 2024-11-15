@@ -23,51 +23,51 @@ Verify installation:
 
 ### Option 1: Using Create React App (Recommended for Beginners)
 
-1. Create a new React app:
+1. **Create a new React app:**
   bash
 
   npx create-react-app my-app
 
 Note:Replace my-app with your desired project name.
 
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
   bash
 
   cd my-app
 
-3. Start the development server:
+3. **Start the development server:**
   bash
   npm start
 
 ### Option 2: Manual Setup (For Advanced Users)
 
-1. Create a project directory:
+1. **Create a project directory:**
 
   bash
 
   mkdir my-react-app
   cd my-react-app
   
-2. Initialize npm:
+2. **Initialize npm:**
 
   bash
 
   npm init -y
 
-3. Install React and React DOM:
+3. **Install React and React DOM:**
 
   bash
 
   npm install react react-dom
 
-4. Install Babel and Webpack:
+4. **Install Babel and Webpack:**
 
   bash
 
   npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli webpack-dev-server
-5. Create the required configuration files:
+5. **Create the required configuration files:**
 
--.babelrc:
+-**.babelrc:**
 
   json
 
@@ -76,7 +76,7 @@ Note:Replace my-app with your desired project name.
     "presets": ["@babel/preset-env", "@babel/preset-react"]
   }
 
--webpack.config.js:
+-**webpack.config.js:**
 
   javascript
 
@@ -106,7 +106,7 @@ Note:Replace my-app with your desired project name.
     },
   };
 
-6. Set up project structure:
+6. **Set up project structure:**
 
 -src/index.js:
 
@@ -130,7 +130,7 @@ Note:Replace my-app with your desired project name.
 
   export default App;
 
-7. Create an HTML template:
+7. **Create an HTML template:**
 
 -public/index.html:
 
@@ -149,7 +149,7 @@ html
   </body>
   </html>
 
-8. Run the development server:
+8. **Run the development server:**
 
   bash
 
@@ -157,8 +157,8 @@ html
 
 ### Running the Project
 
--Create React App:
+-**Create React App:**
 Use npm start to start the development server.
 
--Manual Setup:
+-**Manual Setup:**
 Use npx webpack serve --mode development to run the Webpack dev server.
