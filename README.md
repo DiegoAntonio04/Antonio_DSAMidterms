@@ -39,6 +39,8 @@ Note:Replace my-app with your desired project name.
   bash
   npm start
 
+________________________________________________________________________________________________________________________
+
 ### Option 2: Manual Setup (For Advanced Users)
 
 1. **Create a project directory:**
@@ -65,10 +67,10 @@ Note:Replace my-app with your desired project name.
   bash
 
   npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli webpack-dev-server
-  
+
 5. **Create the required configuration files:**
 
--**.babelrc:**
+- **.babelrc:**
 
   json
 
@@ -77,7 +79,7 @@ Note:Replace my-app with your desired project name.
     "presets": ["@babel/preset-env", "@babel/preset-react"]
   }
 
--**webpack.config.js:**
+- **webpack.config.js:**
 
   javascript
 
@@ -109,7 +111,7 @@ Note:Replace my-app with your desired project name.
 
 6. **Set up project structure:**
 
--src/index.js:
+- **src/index.js:**
 
   >javascript
 
@@ -119,7 +121,7 @@ Note:Replace my-app with your desired project name.
 
     ReactDOM.render(<App />, document.getElementById('root'));
 
--src/App.js:
+- **src/App.js:**
 
   javascript
   
@@ -133,7 +135,7 @@ Note:Replace my-app with your desired project name.
 
 7. **Create an HTML template:**
 
--public/index.html:
+- **public/index.html:**
 
 html
 
@@ -158,8 +160,8 @@ html
 
 ### Running the Project
 
--**Create React App:**
+- **Create React App:**
 Use npm start to start the development server.
 
--**Manual Setup:**
+- **Manual Setup:**
 Use npx webpack serve --mode development to run the Webpack dev server.
