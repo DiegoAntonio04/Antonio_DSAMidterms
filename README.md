@@ -65,6 +65,7 @@ Note:Replace my-app with your desired project name.
   bash
 
   npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli webpack-dev-server
+  
 5. **Create the required configuration files:**
 
 -**.babelrc:**
@@ -110,11 +111,11 @@ Note:Replace my-app with your desired project name.
 
 -src/index.js:
 
-  javascript
+  >javascript
 
     import React from 'react';
     import ReactDOM from 'react-dom';
-    import App from './App';
+    mport App from './App';
 
     ReactDOM.render(<App />, document.getElementById('root'));
 
